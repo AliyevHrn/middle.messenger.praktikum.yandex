@@ -1,0 +1,11 @@
+extends layout/main/main
+
+block variables
+    - var pageTitle = "Ошибка 500"
+
+block content
+    .error__container
+        .error__text
+            h1 500
+            h3 Мы уже исправляем!
+            a(href="./chatList.pug") Назад к чатам

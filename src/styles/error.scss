@@ -1,0 +1,39 @@
+.error__container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.error__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    h1 {
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 64px;
+        text-align: center;
+        color: #1E1E1E;
+        margin-bottom: 30px;
+    }
+    h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #1E1E1E;
+        margin-bottom: 60px;
+    }
+    a {
+        display: block;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 11px;
+        text-align: center;
+        color: #76BB85;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

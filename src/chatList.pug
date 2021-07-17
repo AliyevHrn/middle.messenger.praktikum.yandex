@@ -1,0 +1,21 @@
+extends layout/main/main
+
+block variables
+    - var pageTitle = "Чаты"
+
+block content
+    .chatContainer
+        .chatContainer__left
+            .chatList__header
+                .chatList__gotoProfile
+                    a(href="#" class="chatList__gotoProfile__img")
+                        img(src="#" alt="")
+                    a(href="#" class="chatList__gotoProfile__name") Harun
+                .chatList__search
+                    input(type="search" placeholder="Поиск" value="")
+            .chatList__items
+                include ./modules/chats/chats
+
+        .chatContainer__right
+            .chooseChat__message
+                p Выберите чат чтобы отправить сообщение

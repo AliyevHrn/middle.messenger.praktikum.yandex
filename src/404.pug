@@ -1,0 +1,11 @@
+extends layout/main/main
+
+block variables
+    - var pageTitle = "Ошибка 404"
+
+block content
+    .error__container
+        .error__text
+            h1 404
+            h3 Упс, такой страницы нет!
+            a(href="./chatList.pug") Назад к чатам

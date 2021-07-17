@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чаты</title>
+    <link rel="stylesheet" href="./styles/main.scss">
+</head>
+<body>
+    <main>
+        <div class="chatContainer">
+            <div class="chatContainer__left">
+                <div class="chatList__header">
+                    <div class="chatList__gotoProfile">
+                        <a href="./profile.html" class="chatList__gotoProfile__img">
+                            <img src="#" alt="">
+                        </a>
+                        <a href="./profile.html" class="chatList__gotoProfile__name">Harun</a>
+                    </div>
+                    <div class="chatList__search">
+                        <input type="search" placeholder="Поиск" value="">
+                    </div>
+                </div>
+                <div class="chatList__items">
+                    <a href="./chatMessages.html" class="chatList__item">
+                        <div class="chatList__item__img">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="chatList__item__nameAndMessage">
+                            <h3 class="chatList__item__name">Андрей</h3>
+                            <p class="chatList__item__message">Изображение</p>
+                        </div>
+                        <span class="chatList__item__lastDate">10:49</span>
+                        <span class="chatList__item__unreadMessages">2</span>
+                    </a>
+                    <a href="./chatMessages.html" class="chatList__item">
+                        <div class="chatList__item__img">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="chatList__item__nameAndMessage">
+                            <h3 class="chatList__item__name">Киноклуб</h3>
+                            <p class="chatList__item__message"><span class="chatList__item__message_from">Вы:</span> стикер</p>
+                        </div>
+                        <span class="chatList__item__lastDate">12:00</span>
+                        <span class="chatList__item__unreadMessages">4</span>
+                    </a>
+                    <a href="./chatMessages.html" class="chatList__item">
+                        <div class="chatList__item__img">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="chatList__item__nameAndMessage">
+                            <h3 class="chatList__item__name">Илья</h3>
+                            <p class="chatList__item__message">Отлично!</p>
+                        </div>
+                        <span class="chatList__item__lastDate">15:12</span>
+                        <span class="chatList__item__unreadMessages"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="chatContainer__right">
+                <div class="chatMessages__header">
+                    <div class="contact__gotoProfile">
+                        <a href="#" class="contact__gotoProfile__img">
+                            <img src="#" alt="">
+                        </a>
+                        <a href="#" class="contact__gotoProfile__name">Илья</a>
+                    </div>
+                    <div class="chatMessages__header__menu">
+                        <img src="./images/openMenu-icon.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="chatContainer__messages">
+                    <div class="scrollable scrollable-y">
+                        <div class="chat__messages__list">
+                            <div class="chat__messages__item message-in">
+                                <div class="message__content">
+                                    <div class="message__text">
+                                        <span>Друзья, у меня для вас особенный выпуск новостей! Сегодня мы запускаем новое приложение для обмена сообщениями. Мы назвали его - "Чат" )))</span>
+                                    </div>
+                                    <div class="message__addInfo">
+                                        <div class="message__time">
+                                            <span>15:12</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat__messages__item message-out">
+                                <div class="message__content">
+                                    <div class="message__text">
+                                        <span>Круто! Очень оригинальное название )) </span>
+                                    </div>
+                                    <div class="message__addInfo">
+                                        <div class="message__read">
+                                            <img src="./images/message-read-icon.svg" alt="">
+                                        </div>
+                                        <div class="message__time">
+                                            <span>17:48</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat__messages__item message-in">
+                                <div class="message__content">
+                                    <div class="message__text">
+                                        <span>Спасибо! Нам тоже нравится )</span>
+                                    </div>
+                                    <div class="message__addInfo">
+                                        <div class="message__time">
+                                            <span>17:56</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat__messages__item message-in">
+                                <div class="message__content">
+                                    <div class="message__text">
+                                        <span>Мы скинем вам ссылку на его скачивание, будем рады, если вы его потестируйте</span>
+                                    </div>
+                                    <div class="message__addInfo">
+                                        <div class="message__time">
+                                            <span>17:57</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat__messages__item message-out">
+                                <div class="message__content">
+                                    <div class="message__text">
+                                        <span>Отлично давайте! </span>
+                                    </div>
+                                    <div class="message__addInfo">
+                                        <div class="message__read">
+                                            <img src="./images/message-read-icon.svg" alt="">
+                                        </div>
+                                        <div class="message__time">
+                                            <span>18:02</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat__messages__item message-in">
+                                <div class="message__content">
+                                    <div class="message__text">
+                                        <span>Вот ссылка https://coolapp.ru</span>
+                                    </div>
+                                    <div class="message__addInfo">
+                                        <div class="message__time">
+                                            <span>18:32</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="chat__messages__item message-out">
+                                <div class="message__content">
+                                    <div class="message__text">
+                                        <span>Это сайт, можно ссылку, откуда можно скачать приложение</span>
+                                    </div>
+                                    <div class="message__addInfo">
+                                        <div class="message__read">
+                                            <img src="./images/message-read-icon.svg" alt="">
+                                        </div>
+                                        <div class="message__time">
+                                            <span>18:45</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat__messages__item message-out">
+                                <div class="message__content">
+                                    <div class="message__text">
+                                        <span>Я там не смог найти ссылку </span>
+                                    </div>
+                                    <div class="message__addInfo">
+                                        <div class="message__read">
+                                            <img src="./images/message-read-icon.svg" alt="">
+                                        </div>
+                                        <div class="message__time">
+                                            <span>18:45</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat__messages__item message-in">
+                                <div class="message__content">
+                                    <div class="message__text">
+                                        <span>Ссылка находится в самом низу страницы</span>
+                                    </div>
+                                    <div class="message__addInfo">
+                                        <div class="message__time">
+                                            <span>18:53</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat__messages__item message-in">
+                                <div class="message__content">
+                                    <div class="message__text">
+                                        <span>Пролистайте до конца, там будет две ссылки, "Скачать для IOS" и "Скачать для Android"</span>
+                                    </div>
+                                    <div class="message__addInfo">
+                                        <div class="message__time">
+                                            <span>18:55</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat__messages__item message-out">
+                                <div class="message__content">
+                                    <div class="message__text">
+                                        <span>Да, нашел, спасибо!</span>
+                                    </div>
+                                    <div class="message__addInfo">
+                                        <div class="message__read">
+                                            <img src="./images/message-read-icon.svg" alt="">
+                                        </div>
+                                        <div class="message__time">
+                                            <span>19:11</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat__messages__item message-in">
+                                <div class="message__content">
+                                    <div class="message__text">
+                                        <span>Отлично!</span>
+                                    </div>
+                                    <div class="message__addInfo">
+                                        <div class="message__time">
+                                            <span>17:56</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chatMessages__footer">
+                    <div class="chatMessages__footer__attach">
+                        <img src="./images/attach-icon.svg" alt="">
+                    </div>
+                    <div class="chatMessages__footer__input">
+                        <input type="text" name="message-text" placeholder="Сообщение" required>
+                    </div>
+                    <div class="chatMessages__footer__btnSend">
+                        <button type="submit">
+                            <img src="./images/sendMessage-icon.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

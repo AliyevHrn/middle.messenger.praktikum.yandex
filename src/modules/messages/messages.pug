@@ -1,0 +1,27 @@
+include ./messages-data
+
+
+.chatContainer__messages
+    .scrollable.scrollable-y
+        .chat__messages__list
+            for message in messages
+                if message.messageToMe
+                    .chat__messages__item.message-in
+                        .message__content
+                            .message__text
+                                span=message.text
+
+                            .message__addInfo
+                                .message__time
+                                    span=message.time
+                else
+                    .chat__messages__item.message-out
+                        .message__content
+                            .message__text
+                                span=message.text
+
+                            .message__addInfo
+                                .message__read
+                                    img(src="/static/images/message-read-icon.svg" alt="")
+                                .message__time
+                                    span=message.time

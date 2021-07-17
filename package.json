@@ -1,0 +1,28 @@
+{
+  "name": "middle.messenger.praktikum.yandex",
+  "version": "1.0.0",
+  "description": "<h1>Приложение \"Чат\"</h1>",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/parcel src/index.pug -p 3000",
+    "build": "./node_modules/.bin/parcel build src/index.pug -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliyevHrn/middle.messenger.praktikum.yandex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliyevHrn/middle.messenger.praktikum.yandex/issues"
+  },
+  "homepage": "https://github.com/AliyevHrn/middle.messenger.praktikum.yandex#readme",
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.0.0-nightly.766",
+    "@parcel/transformer-sass": "^2.0.0-nightly.766",
+    "parcel": "^2.0.0-nightly.764",
+    "sass": "^1.35.2"
+  },
+  "dependencies": {}
+}

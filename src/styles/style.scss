@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import './reset.min.scss';
+
+body * {
+    font-family: 'Inter', sans-serif;
+}
+
+.btn_green {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    margin: auto;
+    background: #76BB85;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 13px;
+    padding: 12px 30px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+    &:focus, &:focus-visible {
+        outline-color: #76BB85;
+    }
+}
+
+@import '../modules/authorization/forms.scss';
+
+
+@import '../modules/chats/chatList.scss';
+
+
+@import '../modules/messages/chatMessages.scss';
+
+
+@import '../modules/profile/profile.scss';
+
+
+@import './error.scss';

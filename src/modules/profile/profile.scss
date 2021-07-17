@@ -1,0 +1,148 @@
+.profile__goBack {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 64px;
+    background: #FBFBFB;
+    border-right: 1px solid #EAEAEA;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 28px;
+        height: 28px;
+        margin-top: -14px;
+        margin-left: -14px;
+    }
+}
+.profile__changePhoto {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #EFEFEF;
+    cursor: pointer;
+    margin-bottom: 20px;
+    overflow: hidden;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 40px;
+        height: 40px;
+        margin-left: -20px;
+        margin-top: -20px;
+    }
+    .profile__changePhoto__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000000;
+        opacity: 0.5;
+        display: none;
+        z-index: 1;
+        span {
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 14px;
+        }
+    }
+    &:hover .profile__changePhoto__overlay{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.profile__data__ownerName {
+    margin-bottom: 60px;
+    h3 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: #1E1E1E;
+    }
+}
+.profile__data{
+    padding-top: 60px;
+    max-width: 540px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.profile__data__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.profile__data__row:not(:last-child) {
+    border-bottom: 1px solid #EAEAEA;
+}
+.profile__data__name {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #1E1E1E;
+}
+.profile__data__value {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: right;
+    color: #999999;
+}
+
+.profile__changeData {
+    max-width: 540px;
+    margin: 0 auto;
+}
+.profile__changeData__row a {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: inherit;
+}
+.profile__changeData__data,
+.profile__changeData__password {
+    a {
+        color: #76BB85;
+    }
+}
+.profile__changeData__goOut a {
+    color: #FF0000;
+}
+
+
+.change__photo {
+
+}
+
+
+.form__changePassword__item {
+    label {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        color: #1E1E1E;
+    }
+}
+.change__data__field {
+    border: 0;
+    outline: 0;
+    text-align: right;
+    color: #999999;
+}
+.btn_saveData,
+.btn_savePassword {
+    margin-top: 60px;
+}
