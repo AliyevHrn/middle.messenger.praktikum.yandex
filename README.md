@@ -7,4 +7,4 @@
 
 #### Открытый Pull Request https://github.com/AliyevHrn/middle.messenger.praktikum.yandex/pull/1
 
-#### Netlify https://condescending-shannon-a268d5.netlify.app/
+#### Netlify https://djamaat.netlify.app/
