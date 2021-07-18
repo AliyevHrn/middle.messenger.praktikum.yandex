@@ -9,5 +9,5 @@ console.log(__dirname);
 
 
 app.listen(PORT, () => {
-    console.log(`Запускаем наше приложение на порту ${PORT} ${__dirname + '/dist'}`);
+    console.log(`Запускаем наше приложение на порту ${PORT}`);
 });
