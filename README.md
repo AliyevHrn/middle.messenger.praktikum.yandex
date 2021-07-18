@@ -6,3 +6,5 @@
 ### Cсылка на прототипы https://www.figma.com/file/OsnWnpUPzJRJdKSkP0odzR/Djamaat?node-id=0%3A1
 
 ### Открытый Pull Request https://github.com/AliyevHrn/middle.messenger.praktikum.yandex/pull/1
+
+### Netlify https://condescending-shannon-a268d5.netlify.app/
