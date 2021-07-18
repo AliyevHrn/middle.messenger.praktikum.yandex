@@ -1,3 +1,10 @@
-<h1>Приложение "Чат"</h1>
+# Приложение "Чат"
 
-<h2>Cсылка на прототипы</h2> https://www.figma.com/file/OsnWnpUPzJRJdKSkP0odzR/Djamaat?node-id=0%3A1
+#### Для запуска проекта, запустите в консоли комманду ```npm run start```
+#### Для сборки проекта, запустите в консоли комманду ```npm run build```
+
+#### Cсылка на прототипы https://www.figma.com/file/OsnWnpUPzJRJdKSkP0odzR/Djamaat?node-id=0%3A1
+
+#### Открытый Pull Request https://github.com/AliyevHrn/middle.messenger.praktikum.yandex/pull/1
+
+#### Netlify https://djamaat.netlify.app/
