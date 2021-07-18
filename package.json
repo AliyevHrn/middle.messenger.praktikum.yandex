@@ -25,5 +25,8 @@
     "express": "^4.17.1",
     "parcel": "^2.0.0-nightly.764",
     "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "ansi-html": "^0.0.7"
   }
 }
