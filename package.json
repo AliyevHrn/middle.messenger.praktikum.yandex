@@ -4,8 +4,9 @@
   "description": "<h1>Приложение \"Чат\"</h1>",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/parcel src/index.pug -p 3000",
-    "build": "./node_modules/.bin/parcel src/index.pug -p 3000"
+    "start": "parcel src/index.pug -p 3000",
+    "build": "parcel src/index.pug -p 3000",
+    "express": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +22,8 @@
   "devDependencies": {
     "@parcel/transformer-pug": "^2.0.0-nightly.766",
     "@parcel/transformer-sass": "^2.0.0-nightly.766",
+    "express": "^4.17.1",
     "parcel": "^2.0.0-nightly.764",
     "sass": "^1.35.2"
-  },
-  "dependencies": {}
+  }
 }
