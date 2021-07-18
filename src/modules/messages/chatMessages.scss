@@ -83,8 +83,6 @@
     position: relative;
     padding: 12px 0 0;
     height: 100%;
-
-    flex: 1 1 auto;
 }
 .scrollable {
     width: 100%;
@@ -135,6 +133,7 @@
         position: relative;
         max-width: 60%;
         padding: 12px;
+        text-align: right;
     }
     &.message-in {
         display: flex;
@@ -183,7 +182,7 @@
         justify-content: flex-end;
         align-items: center;
         padding-top: 5px;
-        padding-left: 5px;
+        padding-left: 10px;
         .message__time{
             font-style: normal;
             font-weight: 500;
