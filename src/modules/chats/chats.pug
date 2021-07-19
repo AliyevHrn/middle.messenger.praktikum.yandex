@@ -1,0 +1,13 @@
+include ./chats-data
+
+for item in chats
+    li.chatList__item
+        a(href="#").chatList__link
+            .chatList__item__img
+                img(src=item.photo alt="")
+            .chatList__item__nameAndMessage
+                h3.chatList__item__name= item.name
+                .chatList__item__message= item.message
+            time.chatList__item__lastDate= item.time
+            .chatList__item__unreadMessages= item.noReadCount
+        </a>

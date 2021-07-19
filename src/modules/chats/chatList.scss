@@ -1,0 +1,141 @@
+.chatContainer {
+    display: flex;
+}
+.chatContainer__left {
+    background-color: #FBFBFB;
+    width: 310px;
+    height: 100vh;
+    border-right: 1px solid #EAEAEA;
+}
+.chatList__header {
+    padding-bottom: 12px;
+    padding: 12px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.chatList__gotoProfile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.chatList__gotoProfile__img {
+    width: 38px;
+    height: 38px;
+    background: #EFEFEF;
+    border: 1px solid #76BB85;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.chatList__gotoProfile__name {
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+    text-decoration: none;
+}
+.chatList__search {
+    input {
+        width: 100%;
+        height: 32px;
+        background: #EFEFEF;
+        border-radius: 5px;
+        border: 0;
+        outline: 0;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        color: #999999;
+        text-align: center;
+    }
+}
+.chatList__link {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding: 12px;
+    border-bottom: 1px solid #EAEAEA;
+    text-decoration: none;
+    transition: all .2s ease;
+    &:hover {
+        background: rgba(203, 253, 211, 0.3);
+    }
+    .chatList__item__img {
+        min-width: 47px;
+        min-height: 47px;
+        background: #EFEFEF;
+        border-radius: 50%;
+    }
+    .chatList__item__nameAndMessage {
+        width: 100%;
+        padding-left: 12px;
+    }
+    .chatList__item__name {
+        max-width: calc(100% - 70px);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 13px;
+        color: #1E1E1E;
+        margin-bottom: 5px;
+    }
+    .chatList__item__message {
+        max-width: calc(100% - 35px);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #999999;
+    }
+    .chatList__item__lastDate {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 13px;
+        text-align: right;
+        color: #999999;
+    }
+    .chatList__item__unreadMessages {
+        display: none;
+        position: absolute;
+        bottom: 12px;
+        right: 12px;
+        width: 20px;
+        height: 20px;
+        background: #76BB85;
+        border-radius: 50%;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        &:not(:empty) {
+            display: block;
+        }
+    }
+}
+
+.chatContainer__right {
+    width: calc(100% - 310px);
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    .chooseChat__message {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        p{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 12px;
+            text-align: center;
+            color: #999999;
+        }
+    }
+}
