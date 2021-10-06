@@ -1,4 +1,4 @@
-const express = require("express");
+const express = require('express');
 
 const app = express();
 
@@ -9,5 +9,5 @@ console.log(__dirname);
 
 
 app.listen(PORT, () => {
-    console.log(`Запускаем наше приложение на порту ${PORT}`);
+	console.log(`Запускаем наше приложение на порту ${PORT}`);
 });

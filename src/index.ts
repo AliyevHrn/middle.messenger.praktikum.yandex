@@ -1,4 +1,6 @@
-import { inputFilled } from './utils/inputFilled';
+import render from './utils/renderDOM';
+import Authorization from './pages/authorization';
 
-const _inputs = document.querySelectorAll('.formBlock .form__field');
-inputFilled(_inputs);
+
+
+render('.app', new Authorization());

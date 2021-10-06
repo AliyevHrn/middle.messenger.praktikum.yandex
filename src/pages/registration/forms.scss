@@ -1,0 +1,111 @@
+input, button {
+    outline-color: inherit;
+    outline-style: solid;
+    outline-width: 1px;
+}
+button:focus, a:focus {
+    outline-color: inherit;
+    outline-style: solid;
+    outline-width: 1px;
+}
+.formContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formBlock {
+    width: 340px;
+    min-height: 450px;
+    margin: auto;
+    padding: 48px 30px 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
+    form {
+        height: 100%;
+        min-height: 372px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.form__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #1E1E1E;
+    margin-bottom: 57px;
+}
+.form__item {
+    position: relative;
+    margin-bottom: 35px;
+}
+.form__field {
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid #D9D9D9;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 13px;
+    outline: 0;
+    &.focus+.form__label {
+        top: -8px;
+        background-color: #fff;
+        font-size: 9px;
+        line-height: 9px;
+    }
+    &.invalid {
+        border-bottom: 1px solid #cc2132;
+    }
+    &.valid {
+        border-bottom: 1px solid #76BB85;
+    }
+}
+.form__label {
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 13px;
+    color: #999999;
+    background: transparent;
+    cursor: text;
+    -webkit-transition: all 150ms ease-in;
+    -o-transition: all 150ms ease-in;
+    transition: all 150ms ease-in;
+}
+.form__label.transform__label {
+    top: -7px;
+    background-color: #fff;
+    font-size: 9px;
+    line-height: 9px;
+}
+.form__fieldInvalid {
+    display: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 8px;
+    color: #FF2F2F;
+    margin-top: 7px;
+}
+.form__itemSubmit {
+    margin-top: auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+.link__toRegistration {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    color: #76BB85;
+    text-align: center;
+    cursor: pointer;
+}
