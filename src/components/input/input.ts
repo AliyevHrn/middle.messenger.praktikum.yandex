@@ -14,7 +14,7 @@ export class Input extends Block {
         blur?: (e?:any) => void;
 			};
 		}) {
-		// Создаём враппер DOM-элемент button
+		// Создаём враппер DOM-элемент div
 		super('div', props);
 	}
 

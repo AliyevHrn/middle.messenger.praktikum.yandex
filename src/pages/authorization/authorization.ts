@@ -49,7 +49,10 @@ export class Authorization extends Block {
 			id: 'login',
 			labelName: 'Логин',
 			events: {
-				click: (e) => e.target.classList.add('focus'),
+				click: (e) => {
+					console.log(this._element);
+					e.target.classList.add('focus');
+				},
 				focus: (e) => e.target.classList.add('focus'),
 				blur: () => console.log('blur')
 			}
