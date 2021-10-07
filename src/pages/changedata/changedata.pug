@@ -1,0 +1,43 @@
+- var pageTitle = "Изменить данные"
+
+block content
+    .profile__container
+    a(href="./profile.pug").profile__goBack
+        img(src="/static/images/go-back-icon.svg" alt="")
+    .profile__data
+        .profile__data__photo
+            .profile__changePhoto
+                .profile__changePhoto__overlay
+                    span Загрузить
+                img(src="/static/images/change-photo-icon.svg" alt="")
+        .profile__data__ownerName
+            h3 Harun
+
+        form(action="/")#form__changeData
+            .form__changeData__item
+                .form__item__flex
+                    label(for="email") Почта
+                    input(type="email" name="email" class="change__data__field" id="email" value="aliyevhrn@yandex.ru")
+                .form__fieldInvalid
+            .form__changeData__item
+                .form__item__flex
+                    label(for="login") Логин
+                    input(type="text" name="login" class="change__data__field" id="login" value="aliyevhrn")
+                .form__fieldInvalid
+            .form__changeData__item
+                .form__item__flex
+                    label(for="first_name") Имя
+                    input(type="text" name="first_name" class="change__data__field" id="first_name" value="Harun")
+                .form__fieldInvalid
+            .form__changeData__item
+                .form__item__flex
+                    label(for="second_name") Фамилия
+                    input(type="text" name="second_name" class="change__data__field" id="second_name" value="Aliyev")
+                .form__fieldInvalid
+            .form__changeData__item
+                .form__item__flex
+                    label(for="phone") Телефон
+                    input(type="phone" name="phone" class="change__data__field" id="phone" value="+7 (909) 967 30 30")
+                .form__fieldInvalid
+
+            #{button}

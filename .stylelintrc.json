@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "stylelint-scss"
+    ],
+    "rules": {
+        "color-hex-case": "upper",
+        "color-hex-length": "long",
+        "indentation": 4
+    },
+    "ignoreFiles": ["**/*.min.scss"]
+}
