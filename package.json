@@ -4,7 +4,7 @@
   "description": "<h1>Приложение \"Чат\"</h1>",
   "scripts": {
     "start": "parcel src/index.html -p 3000 --no-cache",
-    "build": "parcel build",
+    "build": "parcel build src/index.html",
     "express": "node server.js",
     "lintfix": "eslint --fix --ext .ts ."
   },
