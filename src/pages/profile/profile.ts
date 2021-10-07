@@ -14,7 +14,6 @@ export class Profile extends Block {
 
 	protected render(): DocumentFragment {
 
-
 		const changeDataLink = new formLInk({
 			text: 'Изменить данные',
 			events: {
@@ -34,8 +33,6 @@ export class Profile extends Block {
 				click: () => render('.app', new Authorization())
 			}
 		});
-
-
 
 		return compile(tmpl, {
 			changeDataLink: changeDataLink,

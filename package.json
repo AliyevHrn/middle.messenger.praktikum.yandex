@@ -5,7 +5,8 @@
   "scripts": {
     "start": "parcel src/index.html -p 3000 --no-cache",
     "build": "parcel src/index.html",
-    "express": "node server.js"
+    "express": "node server.js",
+    "lintfix": "eslint --fix --ext .ts ."
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
   },
   "dependencies": {
     "@parcel/config-default": "^2.0.0-nightly.766",
+    "@parcel/markdown-ansi": "^2.0.0-nightly.766",
     "ansi-html": "^0.0.7",
     "nanoid": "^3.1.28"
   },
