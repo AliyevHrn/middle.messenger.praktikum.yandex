@@ -14,7 +14,6 @@ export class ChangeData extends Block {
 
 	protected render(): DocumentFragment {
 
-
 		const button = new Button({
 			text: 'Сохранить',
 			events: {
@@ -24,8 +23,6 @@ export class ChangeData extends Block {
 				}
 			}
 		});
-
-
 
 		return compile(tmpl, {
 			button: button,

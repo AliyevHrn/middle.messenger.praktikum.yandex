@@ -9,7 +9,7 @@ export class formLink extends Block {
 				click: () => void
 			};
 		}) {
-		// Создаём враппер DOM-элемент button
+		// Создаём враппер DOM-элемент div
 		super('div', props);
 	}
 
