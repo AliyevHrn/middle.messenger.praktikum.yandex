@@ -4,7 +4,7 @@ import compile from '../../utils/compile';
 import render from '../../utils/renderDOM';
 import formLInk from '../../components/formLInk';
 import Authorization from '../authorization';
-import changeData from '../changeData';
+import changeData from '../changedata';
 import changePassword from '../changePassword';
 
 export class Profile extends Block {
