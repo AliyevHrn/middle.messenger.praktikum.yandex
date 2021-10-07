@@ -5,7 +5,7 @@ import render from '../../utils/renderDOM';
 import formLInk from '../../components/formLInk';
 import Authorization from '../authorization';
 import changeData from '../changedata';
-import changePassword from '../changepassword';
+import changePassword from '../changePassword';
 
 export class Profile extends Block {
 	constructor() {
